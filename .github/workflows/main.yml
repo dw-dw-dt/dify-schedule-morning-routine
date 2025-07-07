@@ -1,9 +1,9 @@
 name: Run Dify API Regularly
 
 on:
-  # 毎日23時 (UTC) に実行します (日本時間の午前8時)
+  # 毎日23時 (UTC) に実行します (日本時間の月曜から金曜の午前8時)
   schedule:
-    - cron: '0 23 * * 1-5'
+    - cron: '0 23 * * 0-4'
   # 手動実行も可能にする
   workflow_dispatch:
 
