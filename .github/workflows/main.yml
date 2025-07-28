@@ -17,7 +17,7 @@ jobs:
               --header 'Authorization: Bearer ${{ secrets.DIFY_TOKENS }}' \
               --header 'Content-Type: application/json' \
               --data-raw '{
-                  "inputs": {},
+                  "inputs": {"https://doramemon7743.sakura.ne.jp/today.html"},
                   "response_mode": "streaming",
                   "user": "abc-123"
               }'
