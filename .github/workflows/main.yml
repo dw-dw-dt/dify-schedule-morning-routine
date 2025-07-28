@@ -18,7 +18,7 @@ jobs:
               --header 'Content-Type: application/json' \
               --data-raw '{
                   "inputs": {},
-                  "url": "https://doramemon7743.sakura.ne.jp/today.html"
+                  "url": "https://doramemon7743.sakura.ne.jp/today.html",
                   "response_mode": "streaming",
                   "user": "abc-123"
               }'
